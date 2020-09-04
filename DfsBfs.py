@@ -55,7 +55,7 @@ visited = [False] * 9
 bfs(graph, 1, visited)
 
 #음료수 얼려 먹기 문제 풀이
-#DFS혹은 BFS로 풀이 가능
+#(DFS혹은 BFS로 풀이 가능)
 def dfs(x, y):
   if x <=-1 or x>=n or y<=-1 or y>=m:
       return False
@@ -84,6 +84,7 @@ print(result)
 
 
 #미로 탈출 문제 풀이
+#(bfs에서는 list를 사용하면 시간초과판정가능성있음, 보통 deque를 씀)
 from collections import deque
 
 def bfs(x, y):
