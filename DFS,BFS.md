@@ -67,7 +67,7 @@ visited = [False] * 9
 dfs(graph, 1, visited)
 ```
 
-*BFS 소스코드 예제
+* BFS 소스코드 예제
 ```
 from collections import deque
 
